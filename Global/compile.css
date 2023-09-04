@@ -1,0 +1,81 @@
+/*              IMPORTS             */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+/*              Basics              */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+body {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(49, 49, 49);
+    transition: 0.3s;
+}
+
+
+main {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom  : 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+}
+
+.folder{
+    display: flex;
+    align-items: center;
+    
+}
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: flex;
+    align-items: baseline;
+    width: 100%;
+    padding: 15px;
+}
+
+
+
+
+/*          Color Mode          */
+
+.light-mode {
+    background-color: white;
+    color: black;
+
+}
+
+.light-mode header li:hover {
+    background-color: white;
+    color: black;
+}
+
+.light-mode #color-mode-btn,
+.light-mode #dropdown-color-mode-btn {
+    background-color: white;
+    color: black;
+
+}
+
+.light-mode #color-mode-btn:hover,
+.light-mode #dropdown-color-mode-btn:hover {
+    background-color: black;
+    color: white;
+
+
+}
+
+
+

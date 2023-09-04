@@ -1,0 +1,43 @@
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer a, main a{
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+
+footer a:hover, main a:hover{
+    color: rgb(0, 150, 200);
+}
+
+.footer-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+}
+
+.creators {
+    
+    text-align: center;
+}
+
+
+@media (max-width: 850px){
+    footer{
+        justify-content: center;
+    }
+    .footer-center{
+        flex-direction: column;
+        gap: 30px;
+        width: fit-content;
+        align-items: start;
+    }
+}
