@@ -1,0 +1,140 @@
+/*              IMPORTS             */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+/*              Basics              */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(49, 49, 49);
+    transition: 0.3s;
+}
+
+main {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    min-height: 100vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+
+
+/*          STYLING     */
+
+p{
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color:rgb(255, 243, 19)
+    
+}
+
+h1, h2, h3, h5{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:.1em;
+    font-size: 1.5rem;
+    color:rgb(255, 243, 19)
+}
+.folder{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: baseline;
+    width: 50%;
+    padding: 15px;
+    height:fit-content;
+    
+}
+
+.sortiment {
+    display: block;
+    text-align: left;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; 
+    margin-bottom: 50px;
+}
+
+@media (min-width: 850px) {
+    .sortiment {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: flex;
+        width: auto;
+        max-width: none;
+        margin: 0; 
+    }
+}
+
+
+
+.sortiment img{
+    max-width: 100%;
+    width: 80%;
+}
+
+li{
+    font-size: 15px;
+    color:rgb(255, 243, 19)
+}
+
+h6{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:.1em;
+    font-size: 1.5rem;
+    color:rgb(255, 243, 19)
+}
+
+h5{
+    font-size: 12px;
+}
+
+h4{    
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:.1em;
+    font-size: 1.2rem;
+    color:rgb(255, 243, 19)
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cell img{
+    width: 100%;
+}
+
+b{
+    color:rgb(255, 243, 19);
+}
